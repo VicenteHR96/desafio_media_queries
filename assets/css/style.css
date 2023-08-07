@@ -523,6 +523,10 @@ svg {
     height: 18px;
   }
 
+  .icon i {
+    font-size: 1rem;
+  }
+
   .icon:hover {
     background-color: #e60073;
     box-shadow: 0 0 10px #e60073;
