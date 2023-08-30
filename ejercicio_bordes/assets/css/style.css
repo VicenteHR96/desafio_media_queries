@@ -55,11 +55,25 @@
 .main {
   grid-area: gr-main;
   color: rgb(30, 48, 80);
+  display: grid;
+  grid-template-rows: 2fr 8fr;
+  grid-template-columns: 100%;
+}
+
+.conts {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
-  flex-direction: column;
-  gap: 1.5rem;
+}
+
+.cont2 {
+  justify-content: start;
+  padding-top: 3rem;
+}
+
+.img-car {
+  width: 60%;
 }
 
 @media (min-width: 992px) {

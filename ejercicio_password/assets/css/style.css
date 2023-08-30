@@ -55,11 +55,37 @@
 .main {
   grid-area: gr-main;
   color: rgb(30, 48, 80);
+  display: grid;
+  grid-template-rows: 2fr 8fr;
+  grid-template-columns: 100%;
+}
+
+.conts {
   display: flex;
-  justify-content: center;
-  align-items: center;
   flex-direction: column;
-  gap: 1.5rem;
+  align-items: center;
+}
+
+.cont1 {
+  justify-content: center;
+}
+
+.cont2 {
+  padding-top: 5rem;
+  gap: 2rem;
+}
+
+.act-verificar {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+
+#mensaje {
+  color: black;
+  font-weight: 400;
+  font-size: 1rem;
 }
 
 @media (min-width: 992px) {
